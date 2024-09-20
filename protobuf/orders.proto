@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package orders;
+
+import "google/protobuf/empty.proto";
+
+option go_package = "./internal/grpc/protobuf/orders";
+
+message Order {
+    int32 id = 1;
+    string status = 2;
+    string rental_type = 3;
+    int64 pickup_date = 4;
+    int64 return_date = 5;
+    string total_price = 6;
+    int32 rental_days = 7;
+    int64 created_at = 8;
+    int64 updated_at = 9;
+    int32 vehicle_id = 10;
+  }
+  
+  service OrdersService {
+    rpc CreateOrder(Order) returns (Order) {}
+    rpc GetOrder(GetOrderRequest) returns (Order) {}
+    rpc GetOrderByVehicleID(GetOrderByVehicleIDRequest) returns (Order) {}
+    rpc UpdateOrder(Order) returns (Order) {}
+    rpc DeleteOrder(DeleteOrderRequest) returns (google.protobuf.Empty) {}
+  }
+  
+  message GetOrderRequest {
+    int32 id = 1;
+  }
+
+  message GetOrderByVehicleIDRequest {
+    int32 vehicle_id = 1;
+  }
+  
+  message DeleteOrderRequest {
+    int32 id = 1;
+  }

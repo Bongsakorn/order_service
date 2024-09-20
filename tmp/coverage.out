@@ -1,0 +1,25 @@
+mode: set
+order_service/internal/grpc/grpc-example/server.go:15.93,18.2 2 1
+order_service/internal/modules/example/example.controller.go:23.80,25.2 1 0
+order_service/internal/modules/example/example.controller.go:27.61,54.2 1 0
+order_service/internal/modules/example/example.controller.go:56.73,58.16 2 0
+order_service/internal/modules/example/example.controller.go:58.16,60.3 1 0
+order_service/internal/modules/example/example.controller.go:61.2,63.12 2 0
+order_service/internal/modules/example/example.controller.go:66.72,70.16 4 0
+order_service/internal/modules/example/example.controller.go:70.16,75.3 1 0
+order_service/internal/modules/example/example.controller.go:76.2,76.51 1 0
+order_service/internal/modules/example/example.controller.go:76.51,81.3 1 0
+order_service/internal/modules/example/example.controller.go:82.2,83.12 2 0
+order_service/internal/modules/example/example.controller.go:86.73,88.18 2 0
+order_service/internal/modules/example/example.controller.go:88.18,94.3 1 0
+order_service/internal/modules/example/example.controller.go:95.2,96.12 2 0
+order_service/internal/modules/example/example.controller.go:99.70,101.18 2 0
+order_service/internal/modules/example/example.controller.go:101.18,104.3 1 0
+order_service/internal/modules/example/example.controller.go:105.2,106.12 2 0
+order_service/internal/modules/example/example.module.go:14.90,22.2 4 0
+order_service/internal/modules/example/example.service.go:29.131,33.31 4 1
+order_service/internal/modules/example/example.service.go:33.31,35.13 2 0
+order_service/internal/modules/example/example.service.go:37.2,44.3 3 1
+order_service/internal/modules/example/example.service.go:47.61,50.2 2 0
+order_service/internal/modules/example/example.service.go:52.59,58.2 4 0
+order_service/internal/modules/example/example.service.go:60.56,65.2 4 0
